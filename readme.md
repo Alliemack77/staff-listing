@@ -21,4 +21,4 @@
     - we can always center the smaller images only on the pages that need it 
 
 - to avoid column collapse I used :after psudo-element and Generated Content 
-    - checkout [Rachel Andrews article *Styling Empty Cells With Generated Content And CSS Grid Layout*](https://www.smashingmagazine.com/2018/02/generated-content-grid-layout/)on Smashing Magazine
+    - checkout [Rachel Andrews article *Styling Empty Cells With Generated Content And CSS Grid Layout*](https://www.smashingmagazine.com/2018/02/generated-content-grid-layout/) on Smashing Magazine
