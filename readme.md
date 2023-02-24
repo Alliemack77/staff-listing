@@ -2,12 +2,12 @@
 
 ## Some Notes to Consider:
 
-- the listing is using container queries
+- the listing is using [container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries)
     - layout is based on the width of the container (.listing-container)
     - single col at width < 600px
     - two col at widths > 600px
 
-- the listing is using Grid 
+- the listing is using [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) 
     - first column is using 1/4 available space
     - second column is using 3/4 available space
 
@@ -19,3 +19,6 @@
 - toggle the "justify-content" property to center images horizontally in their grid cell
     - this will give extra space to the left - this was something we wanted to avoid
     - we can always center the smaller images only on the pages that need it 
+
+- to avoid column collapse I used :after psudo-element and Generated Content 
+    - checkout [Rachel Andrews article *Styling Empty Cells With Generated Content And CSS Grid Layout*](https://www.smashingmagazine.com/2018/02/generated-content-grid-layout/)on Smashing Magazine
