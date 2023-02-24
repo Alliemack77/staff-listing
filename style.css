@@ -97,6 +97,7 @@ p {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         z-index: 1000;
+        justify-self: center;
     }
 
     .listing-image-test {
