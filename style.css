@@ -86,7 +86,7 @@ p {
 
     .listing:before {
         content: "";
-        background-color: #fff;
+        background-color: #ffffff00;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         z-index: -1;
@@ -97,7 +97,7 @@ p {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         z-index: 1000;
-        justify-self: center;
+        /* justify-self: center; */
     }
 
     .listing-image-test {
